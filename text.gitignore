@@ -1,0 +1,11 @@
+*.class
+out/
+build/
+bin/
+.idea/
+*.iml
+.vscode/
+Data/
+Backups/
+*.db
+*.idx
