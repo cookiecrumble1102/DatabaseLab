@@ -49,7 +49,7 @@ public class DatabaseGUI extends JFrame {
         table = new JTable(tableModel);
         add(new JScrollPane(table), BorderLayout.CENTER);
 
-        // Input data panel (North)
+        // Input data panel
         JPanel inputPanel = new JPanel(new FlowLayout(FlowLayout.LEFT, 8, 8));
         inputPanel.setBorder(BorderFactory.createTitledBorder("Data insertion"));
         
@@ -72,9 +72,9 @@ public class DatabaseGUI extends JFrame {
         
         add(inputPanel, BorderLayout.NORTH);
 
-        // Service buttons & Multiple Operations (South)
+        // Service buttons & Multiple Operations
         JPanel bottomPanel = new JPanel(new FlowLayout(FlowLayout.RIGHT, 8, 8));
-        bottomPanel.setBorder(BorderFactory.createTitledBorder("Multiple Search, Delete and Service"));
+        bottomPanel.setBorder(BorderFactory.createTitledBorder("Non-key Attributes Search, Delete and Service"));
 
         // Items for searchMultiple|removeMultiple
         bottomPanel.add(new JLabel("Search Name:"));
